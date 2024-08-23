@@ -1,0 +1,140 @@
+@import url('https://fonts.cdnfonts.com/css/celine-sans');
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #f3c6a1;
+    background-color: #f0e7da;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: left;
+    
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 30px;
+    
+}
+
+header nav ul li a {
+    color: #f3e8d9;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+
+    height: 100vh;
+    background: url('assets/Home-hero.png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.content h1 {
+    font-size: 4rem;
+    margin: 0;
+    color: #f3e8d9;
+    font-family: 'Celine Sans', sans-serif;
+}
+
+.content p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.footer-info {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    width: 90%;
+    color: #f3e8d9;
+}
+
+.footer-info .location,
+.footer-info .social-media,
+.footer-info .email {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.footer-info a {
+    color: #f3e8d9;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    .content p {
+        font-size: 1.2rem;
+    }
+
+    .footer-info {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        bottom: 40px;
+    }
+
+    .footer-info .location,
+    .footer-info .social-media,
+    .footer-info .email {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        text-align: center;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .content h1 {
+        font-size: 2.5rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+
+    .footer-info {
+        width: 100%;
+    }
+}
