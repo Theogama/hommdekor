@@ -38,9 +38,8 @@ header nav ul li a {
 
 .hero {
     position: relative;
-
     height: 100vh;
-    background: url('assets/home-image.png') no-repeat center center/cover;
+    background: url('assets/hero-image.png') no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,7 +57,7 @@ header nav ul li a {
 }
 
 .content h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin: 0;
     color: #f3e8d9;
     font-family: 'Celine Sans', sans-serif;
