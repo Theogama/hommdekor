@@ -40,7 +40,7 @@ header nav ul li a {
     position: relative;
 
     height: 100vh;
-    background: url('assets/homm-dekor.png') no-repeat center center/cover;
+    background: url('assets/home-image.png') no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
